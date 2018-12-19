@@ -44,7 +44,7 @@
 			<div class="fullpage-video-block indicator"  data-back-type='block' >
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
-				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_05/hero_05_04.jpg" controls>
+				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_05/hero_05_04.jpg" controls muted data-autoplay>
 				    <source src="/video/hero_9.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>

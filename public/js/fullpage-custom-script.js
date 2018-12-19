@@ -72,6 +72,7 @@ let fullpageDemo = new fullpage('#fullpage-demo', {                             
          else if(type=='block'){                                        //ТУт касается второго блока, в котором будет включатся видео
             $('#fullpage-video-block__overlay').addClass('active')
             $('#fullpage-video-block__video').get(0).play();
+            $('#fullpage-video-block__video').prop('muted',false);
          }
 
      },
@@ -89,6 +90,9 @@ let fullpageDemo = new fullpage('#fullpage-demo', {                             
         $('#fullpage-video-block__overlay').removeClass('active')   //Тут убирается затемнение для второго блока с видео
          $('#fullpage-video-block__video').get(0).pause();
          $('#fullpage-back-block__video').get(0).pause();
+
+
+        $('#fullpage-video-block__video').prop('muted',true);
 
          $('#fullpage-footer').removeClass('active')                //Тут деактивация футера
 
@@ -141,4 +145,37 @@ $(document).ready(function() {
 
 
 
+// Wait until the video meta data has loaded
+$('#fullpage-video-block__video').on('loadedmetadata', function() {
+    
+    var $width, $height, // Width and height of screen
+        $vidwidth = this.videoWidth, // Width of video (actual width)
+        $vidheight = this.videoHeight, // Height of video (actual height)
+        $aspectRatio = $vidwidth / $vidheight; // The ratio the video's height and width are in
+                
+    (adjSize = function() { // Create function called adjSize
+                    
+        $width = $(window).width(); // Width of the screen
+        $height = $(window).height(); // Height of the screen
+                    
+        $boxRatio = $width / $height; // The ratio the screen is in
+                    
+        $adjRatio = $aspectRatio / $boxRatio; // The ratio of the video divided by the screen size
+                    
+        // Set the container to be the width and height of the screen
+        $('#section0').css({'width' : $width+'px', 'height' : $height+'px'}); 
+                    
+        if($boxRatio < $aspectRatio) { // If the screen ratio is less than the aspect ratio..
+            // Set the width of the video to the screen size multiplied by $adjRatio
+            $vid = $('#section0 video').css({'width' : $width*$adjRatio+'px'}); 
+        } else {
+            // Else just set the video to the width of the screen/container
+            $vid = $('#section0 video').css({'width' : $width+'px'});
+        }
+                         
+    })(); // Run function immediately
+                
+    // Run function also on window resize.
+    $(window).resize(adjSize);
 
+});
