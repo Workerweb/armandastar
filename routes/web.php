@@ -19,29 +19,21 @@ Route::get('/hero_juld', function () {
     return view('pages.heroes./hero_juld');
 });
 
-
 Route::get('/hero_anarbekovi', function () {
     return view('pages.heroes.hero_anarbekovi');
 });
-
 
 Route::get('/hero_danyar', function () {
     return view('pages.heroes.hero_danyar');
 });
 
-
-
 Route::get('/hero_samson', function () {
     return view('pages.heroes.hero_samson');
 });
 
-
-
 Route::get('/hero_kamila', function () {
     return view('pages.heroes.hero_kamila');
 });
-
-
 
 Route::get('/hero_timur', function () {
     return view('pages.heroes.hero_timur');
@@ -72,4 +64,8 @@ Route::get('/hero_lyudmila', function () {
 
 Route::get('/hero_nurlan', function () {
     return view('pages.heroes.hero_nurlan');
+});
+
+Route::get('/dev', function () {
+    return view('pages.dev.dev');
 });
