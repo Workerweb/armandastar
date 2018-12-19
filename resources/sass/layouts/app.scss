@@ -1,0 +1,212 @@
+@import '../helpers/breakpoints.scss';
+
+$txt:#0a4d7f;
+$osb:'OpenSans-Bold';
+$osl:'OpenSans-Light';
+
+#app{
+	// overflow: hidden;
+}
+
+.iScrollIndicator{
+	display: none !important;
+}
+
+.is_animate{
+	opacity: 0;
+
+	transition: all .1s ease-in-out; 
+
+	animation-duration: .3s;
+	 animation-delay: 0s;
+}
+
+#hero_headero_modal{
+animation-duration: .4s;
+	 animation-delay: 0s	
+}
+
+#aliya_animate_1{
+	animation-duration: .4s;
+	 animation-delay: 0s
+}
+
+#aliya_animate_2{
+	animation-duration: .4s;
+	 animation-delay: 0s
+}
+
+#aliya_animate_3{
+	animation-duration: .4s;
+	 animation-delay: 0s
+}
+
+#aliya_animate_4{
+	animation-duration: .4s;
+	 animation-delay: 0s
+}
+
+#aliya_animate_5{
+	animation-duration: .4s;
+	 animation-delay: 0s
+}
+
+.zhan{
+	font-size: 16px;
+
+	&__wrap{
+		padding:5em 5em !important; 
+	}
+
+	&__col{
+
+		&.center{
+			display: flex;
+			flex-direction:column;
+			align-items:center;
+			justify-content:center;
+		}
+	}
+
+	&__text{
+		color:$txt;
+		font-size: 1em;
+		font-family: 'OpenSans-Light';
+
+		span{
+			font-family: 'OpenSans-Bold';
+		}
+	}
+
+	&__hr{
+		width: 35%;
+		height: 1px;
+
+		margin-top: 3em;
+
+		background-color: $txt;
+	}
+
+
+	&__title{
+		font-size: 2em;
+		font-family: 'OpenSans-ExtraBold';
+		color:$txt;
+		margin: 1em 0px;
+
+		text-transform: uppercase;
+
+
+		&.center{
+			text-align: center;
+		}
+
+		&.m{
+			font-size: 1.1em;
+			width: 65%;
+			margin: 0em auto 2em auto;
+		}
+	}
+
+	&__video{
+		margin: 1.2em 1.5em;
+	    width: 75%;
+    	height: 390px;
+	}
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	background:#fff !important; 
+}
+
+.pad-md{
+	font-size: 16px;
+	padding:2em 0px; 
+}
+
+.fullpage-wrapper{
+	height: 100vh !important;
+}
+
+@include adaptive-m{
+	.zhan{
+		&__wrap{
+			padding:3em 3em !important;
+		}
+
+		&__col{
+			&.video{
+				margin: 2em 0em;
+			}
+		}
+
+		&__wrap{
+			align-items:center;
+			justify-content:space-between;
+		}
+
+		&__text{
+			font-size: .8em;
+		}
+
+		&__video{
+			height: 240px;
+			margin: 1.5em 0em;
+		}
+
+	}
+}
+
+@include adaptive-480{
+	.zhan{
+		font-size: 16px;
+
+		&__text{
+			font-size: 1em;
+		}
+
+		&__video{
+			width: 95%;
+			height: 200px;
+			margin: 1.5em 0em;
+		}		
+
+	}
+}
+
+@include adaptive-360{
+	.zhan{
+		font-size: 14px;
+
+		&__wrap{
+			padding: 1em 1.5em !important;
+			text-align: center;
+		}
+
+		&__text{
+			font-size: 1em;
+		}
+
+		&__video{
+			height: 150px;
+		}		
+
+	}
+}
+
+@include adaptive-xs{
+	.zhan{
+
+		&__col{
+			&.video{
+				padding: 0px !important;
+			}
+		}
+
+		&__video{
+			height: 140px;
+		}		
+
+	}
+}
+

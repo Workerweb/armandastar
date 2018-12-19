@@ -1,0 +1,141 @@
+@import '../helpers/breakpoints';
+@import '../variables.scss';
+
+.move-down{
+	font-size: $ff;
+	
+	z-index: 92;
+
+	cursor: pointer;
+
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	
+	transition: all .5s ease-in-out;
+
+	position: fixed;
+	bottom: -4em;
+
+	left:15em;
+	right: unset;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	&.active{
+		bottom:2em;
+	}
+
+
+	&.animate{
+		animation: drag 5s infinite;
+		-webkit-animation: drag 5s infinite;
+		-moz-animation: drag 5s infinite;
+		-o-animation: drag 5s infinite;		
+	}
+
+	
+
+	&__image{
+		height: 40px;
+		width: auto;
+
+		object-fit: cover;
+	}
+
+	&__text{
+		font-size: 1.2em;
+		font-family: $font-bold;
+		color:#fff;
+
+		margin: 0em .5em;
+	}
+
+	
+
+
+}
+
+.move-down-center{
+	font-size: $ff;
+		
+	z-index: 92;
+
+	cursor: pointer;
+
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	
+	transition: all .5s ease-in-out;
+
+	position: fixed;
+	bottom: -4em;
+
+	left:0;
+	right: 0;
+
+	margin-left: auto;
+	margin-right: auto;		
+
+	&.active{
+		bottom:2em;
+		
+		animation: drag 5s infinite;
+		-webkit-animation: drag 5s infinite;
+		-moz-animation: drag 5s infinite;
+		-o-animation: drag 5s infinite;		
+	}	
+
+}
+
+@-webkit-keyframes drag {
+	    0%   {bottom: 2em;}
+	    25%  {bottom: 1em;}
+	    50%  {bottom: 2em;}
+	    75%  {bottom: 1em;}
+	    100% {bottom: 2em;}
+	}
+
+	@-o-keyframes drag {
+	    0%   {bottom: 2em;}
+	    25%  {bottom: 1em;}
+	    50%  {bottom: 2em;}
+	    75%  {bottom: 1em;}
+	    100% {bottom: 2em;}
+	}	
+
+	@-moz-keyframes drag {
+	    0%   {bottom: 2em;}
+	    25%  {bottom: 1em;}
+	    50%  {bottom: 2em;}
+	    75%  {bottom: 1em;}
+	    100% {bottom: 2em;}
+	}	
+
+	@keyframes drag {
+	    0%   {bottom: 2em;}
+	    25%  {bottom: 1em;}
+	    50%  {bottom: 2em;}
+	    75%  {bottom: 1em;}
+	    100% {bottom: 2em;}
+	}	
+
+
+@include adaptive-768{
+	.move-down{
+		left: 0;
+		right: 0;
+
+		margin-left: auto;
+		margin-right: auto;
+
+		&__image{
+			height: 30px;
+		}
+	
+	}
+}

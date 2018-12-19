@@ -1,0 +1,768 @@
+@import '../helpers/breakpoints.scss';
+
+
+// ----------------------------RECENT USE CLASSES--------------------------------------
+.fullpage-text{
+	font-size: 16px;
+
+	min-height: 100vh;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+
+	overflow: hidden;
+
+	&__wrap{
+		z-index: 90;
+
+		position: relative;
+		min-height: 100vh;
+	}
+
+	.overlay{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+
+		z-index: 92;
+		background: linear-gradient(to right, #222 , transparent 40%);
+	}
+
+	&__left{
+		z-index: 93;
+		position: relative;
+		overflow: scroll;
+
+
+	}
+
+	&__right{
+		z-index: 93;
+		position: relative;
+	}
+
+
+	//for video have blocks
+
+	&__video{
+		width: 100%;
+		height: 100vh;		
+		object-fit: cover;
+
+		position: absolute;
+		z-index: 91;
+
+
+		top:0;
+
+		right: 0;
+		left: 0;
+
+		margin-left: auto; 
+		margin-right: auto;
+
+	}
+
+	&__container{
+
+		display:block;
+
+		width: 100%;	
+		z-index: 93;
+
+		height: auto;
+	}
+
+
+	&__contain{
+		width: 100%;
+		height: 100vh;
+		background-color: aqua;
+	}
+
+
+	//styles for video block text
+	&__minimal{
+		width: 80%;
+		z-index: 92;
+
+		padding-top: 100vh;
+		padding-bottom:  100vh;
+
+		color:#fff;
+
+		&.top53{
+			top: 53%;
+			left: -40%;
+		}
+		&.top33{
+			width: 60%;
+			top: 33%;
+			right:28%;
+		}
+
+		&.rustem-minimal{
+			top: 20%;
+			width: 70%;
+			left: -20%;
+		}
+		}
+
+// ----------------------------RECENT USE CLASSES--------------------------------------
+	
+
+						
+// ----------------------------OTHER CLASSES--------------------------------------
+	&__dialog{
+		position: absolute;
+		top:0;
+
+		right: 0;
+		left: 0;
+
+		margin-left: auto; 
+		margin-right: auto;
+
+		background-image: url('/img/heroes/modal_01.png');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat; 
+
+		width: 90%;
+
+		color:#fff;
+
+		display: flex;
+		flex-direction:column;
+		align-items:flex-start;
+		justify-content:center;
+
+		padding: 2em 2em;
+
+		&.dialog-default{
+			padding-top: 4em;
+			min-height: 320px;
+			background-image: url('/img/heroes/dialog_01.png');
+		}
+
+		&.dialog-xxl{
+			background-image: url('/img/heroes/xxl.png');
+			top: 52%;
+			width: 100%;
+			left: 10%;
+		}
+
+		&.dialog-cube{
+			background-image: url('/img/heroes/cube.png');
+			background-position: center;
+			background-size: contain;
+			background-repeat: no-repeat;
+			width: 55%;
+			top: 10%;
+			left: 20%;
+			padding: 3em;
+		}
+		
+		&.dialog-cube2{
+			background-image: url('/img/heroes/cube2.png');
+			background-position: center;
+			background-size: contain;
+			background-repeat: no-repeat;
+			width: 60%;
+			top: 33%;
+			margin: 0 auto;
+			padding: 2em;
+
+			&.width70{
+				top: 38%;
+				width: 70%;
+				right: 22%;
+				padding: 2.5em;
+			}
+		}
+
+		&.rustem-dialog{
+			background-image: url('/img/heroes/rustem_modal.png');
+			padding: 3em;
+			bottom: 10%;
+			top: unset;
+
+			&.rustem-dialog2{
+				bottom: 60%;
+				width: 70%;
+				right: -10%;
+			}
+
+			&.rustem-dialog3{
+				top: unset;
+				bottom: 5%;
+				background-image: url('/img/heroes/modal_01.png');
+			}
+		}
+
+		&.george{
+			width: 100%;
+			top:53%;
+			right: -20%;
+		}
+
+		&.top68{
+			top: 68%;
+		}
+
+			
+	}
+
+	&__text{
+		font-family: 'Montserrat-Light';
+		font-size: 1.2em;
+
+		strong {
+			font-family:'Montserrat-ExtraBold';
+			font-size: 1.6em;
+		}
+	}
+
+	&__text-bold{
+		font-family:'Drina' ;
+		font-size: 3em;
+		line-height: 1;
+	}
+
+	
+
+	&__fill{
+		position: absolute;
+		top:0;
+
+		right: 0;
+		left: 0;
+
+		margin-left: auto; 
+		margin-right: auto; 
+
+		width: 80%;
+
+		color:#fff;		
+	}
+
+	&__text-minimal{
+		font-family: 'Montserrat-Light';
+		font-size: 1.2em;
+	}
+
+	&__text-extrabold{
+		font-family: 'Montserrat-ExtraBold';
+		font-size: 1.8em;
+		line-height: 1.2;
+	}
+
+	&__text-minimal-cube{
+		font-family: 'Montserrat-Light';
+		font-size: 1.2em;
+		width: 40%;
+		margin: 25px auto;
+	}
+
+// ----------------------------OTHER CLASSES--------------------------------------
+
+
+}
+
+@include adaptive-1460{
+	.poster-text{
+		font-size: 15px;
+
+		&__dialog{
+			background-size: cover;
+			border-radius: 20px;
+
+			&.dialog-xxl{
+				top: unset;
+				bottom: 10%;
+				padding: 3em;
+			}
+
+			&.dialog-cube{
+				background-image: url(/img/heroes/modal_01.png);
+				width: 90%;
+				background-size: cover;
+				top: unset;
+				bottom: 10%;
+				left: -10%;
+			}
+
+			&.dialog-cube2{
+				background-image: url(/img/heroes/modal_01.png);
+				width: 90%;
+				background-size: cover;
+				top: unset;
+				bottom: 10%;
+				right: 0;
+
+				&.width70{
+					width: 90%;
+					padding: 2em;
+					right: 0;
+					top: unset;
+					bottom: 10%;
+				}
+			}
+
+			&.rustem-dialog{
+
+				&.rustem-dialog2{
+					bottom: 10%;
+				}
+
+				&.rustem-dialog3{
+					bottom: 10%;
+				}
+			}
+
+			&.top68{
+				top: unset;
+				bottom: 10%;
+			}
+		}
+
+		&__text{
+			margin-bottom: .5em;
+		}
+
+		&__minimal{
+			font-size: 15px;
+			width:50%;
+
+			&.top33{
+				top: unset;
+				bottom: 10%;
+			}
+		}
+
+		&__text-minimal-cube{
+			width: 100%;
+			font-size: 1.2em;
+			margin: 25px;
+		}
+
+		&.juld-poster-2{
+			.poster-text__dialog{
+				background-size: contain;
+			}
+
+			.poster-text__text-bold{
+				font-size: 2em;
+			}
+		}	
+	}
+}
+
+@include adaptive-l{
+	.poster-text{
+		&__minimal{
+			&.top53{
+				top: unset;
+				bottom: 10%;
+			}
+			&.top33{
+				top: unset;
+				bottom: 10%;
+			}
+		}
+
+		&__dialog{
+			&.dialog-cube{
+				background-image: url(/img/heroes/modal_01.png);
+				width: 90%;
+				background-size: cover;
+				top: unset;
+				right: 0;
+				left: 0;
+				bottom: 10%;
+			}
+
+			&.dialog-cube2{
+				background-image: url(/img/heroes/modal_01.png);
+				width: 90%;
+				background-size: cover;
+				top: unset;
+				right: 0;
+				bottom: 10%;
+
+				&.width70{
+					width: 90%;
+					padding: 2em;
+					right: 0;
+					top: unset;
+					bottom: 10%;
+				}
+			}
+
+			&.dialog-xxl{
+				top: unset;
+				right: 0;
+				bottom: 10%;
+				left: 0;
+				width: 90%;
+			}
+
+			&.george{
+				top: unset;
+				right: -10%;
+				bottom: 10%;
+			}
+
+			&.top68{
+				top: unset;
+				bottom: 10%;
+			}
+		}
+
+		&__text{
+			strong{
+				font-size: 1em;
+			}
+		}
+	}
+}
+
+
+@include adaptive-m{
+	.poster-text{
+		font-size: 12px;
+
+		&__minimal{
+			font-size: 12px;
+			width: 80%;
+
+			&.top53{
+				top: 53%;
+				left: 0;
+			}
+
+			&.top33{
+				width: 80%;
+				right: 0;
+				top: 43%;
+			}
+		}
+
+		&__dialog{
+
+			&.dialog-xxl{
+				background-image: url(/img/heroes/modal_01.png);
+				width: 90%;
+				background-size: cover;
+				top: unset;
+				bottom: 10%;
+				right: 0;
+			}
+
+			&.dialog-cube{
+				background-image: url('/img/heroes/modal_01.png');
+				width: 90%;
+				top: unset;
+				bottom: 10%;
+				background-size: cover;
+				border-radius: 20px;
+			}
+
+			&.dialog-cube2{
+				background-image: url(/img/heroes/modal_01.png);
+				width: 90%;
+				background-size: cover;
+				top: unset;
+				right: 0;
+
+				&.width70{
+					width: 90%;
+					padding: 2em;
+					right: 0;
+					top: unset;
+				}
+			}
+
+			&.top68{
+				top: unset;
+			}
+
+			&.george{
+				top: unset;
+				bottom: 10%;
+			}
+		}
+
+		&__text-minimal{
+			font-size: 1.2em;
+		}
+
+		&__text-minimal-cube{
+			font-size: 1.2em;
+		}
+		&__text{
+			font-size: 1.2em;
+			strong{
+				font-size: 1em;
+			}
+		}
+	}
+}
+
+@include adaptive-768{
+	.poster-text{
+
+		&.videoPoster{
+			height: auto;
+			min-height: 60vh;
+
+			.poster-text__wrap{
+				height: auto;
+				min-height: unset;
+			}
+
+			.poster-text__block{
+				display: none;
+			}
+
+			.poster-text__video{
+				height: 50vh;
+			}
+
+			.poster-video{
+				&__wrap{
+					margin-top: 50vh;
+					padding: 2em 4em;
+
+					display: flex;
+					flex-direction:column;
+					align-items:center;
+					justify-content:center;
+
+				}
+
+				&__hr{
+					margin: 1em auto;
+					max-width: 100%;
+					height: auto;
+				}
+
+				&__wrap-text{
+					margin: .5em 0em;
+					font-size: 1.5em;
+					font-family: 'Montserrat-Light';
+				}
+			}
+		}
+
+		&__dialog{
+			width: 90%;
+			top:unset !important;
+			bottom: 2em;
+			// min-height: unset;
+
+			&.dialog-default{
+				min-height: unset;
+			}
+
+			&.george{
+				width: 90%;
+				top:33%;
+				right:0;
+				bottom: 2em;
+			}
+
+			&.dialog-xxl{
+				left: 0;
+				background-image: url(/img/heroes/modal_01.png);
+				bottom: 2em;
+				padding: 2em;
+			}
+			&.dialog-cube{
+				background-image: url('/img/heroes/modal_01.png');
+				width: 90%;
+				top: unset;
+				right: 0;
+				bottom: 2em;
+				left: 0;
+				background-size: cover
+			}
+			&.dialog-cube2{
+				background-image: url(/img/heroes/modal_01.png);
+				width: 90%;
+				background-size: cover;
+				right: 0;
+				bottom: 2em;
+
+				&.width70{
+					width: 90%;
+					top: 0;
+					right: 0;
+					bottom: 2em;
+				}
+			}
+			&.rustem-dialog{
+				bottom: 2em;
+
+				&.rustem-dialog2{
+					right: -20%;
+					bottom: 2em;
+				}
+
+				&.rustem-dialog3{
+					bottom: 2em;
+				}
+			}
+
+			&.top68{
+				bottom: 2em;
+			}
+		}
+
+		&__block{
+			padding: 1em 2em;
+		}
+
+		&__text{
+			font-size: 1.5em;
+			line-height: 1.5;
+		}
+
+		&__minimal{
+			width: 90%;
+			top:unset;
+			background-image: url('/img/heroes/modal_01.png');
+			background-size: cover;
+			background-position: center;
+			border-radius: 20px;
+			background-repeat: no-repeat;
+
+			display: flex;
+			flex-direction:column;
+			align-items:flex-start;
+			justify-content:center;
+
+			top:1em;
+
+			padding: 1em 1.5em;
+			
+			&.top53{
+				top: 53%;
+				bottom: 2em;
+			}
+
+			&.top33{
+				right: 0;
+				width: 90%;
+				top: unset;
+				bottom: 2em;
+			}
+
+			&.rustem-minimal{
+				top: unset;
+				bottom: 2em;
+			}
+		}
+
+		&__text-minimal{
+			font-size: 1.5em;
+			margin: .2em 0em;
+		}				
+
+	}
+}
+
+@include adaptive-767{
+	.poster-text{
+		&__minimal{
+			&.top53{
+				top: unset;
+			}
+
+			&.rustem-minimal{
+				width: 90%;
+				left: 0;
+			}
+		}
+
+		&__dialog{
+			&.rustem-dialog{
+
+				&.rustem-dialog2{
+					width: 90%;
+					right: 0;
+				}
+
+				&.rustem-dialog3{
+				}
+			}
+		}
+	}
+}
+
+
+@include adaptive-480{
+	.poster-text{
+		font-size: 10px;
+
+		&.videoPoster{
+			.poster-text__video{
+				height: 25vh;
+			}	
+
+			.poster-video{
+				&__wrap{
+					margin-top: 25vh;
+					padding: 2em 3em;
+
+				}
+				&__wrap-text{
+					margin: .2em 0em;
+					line-height: 1.7;
+				}
+			}					
+		}
+
+		&__dialog{
+			&.george{
+				bottom: 2%;
+			}
+			&.dialog-xxl{
+				bottom: 2%;
+			}
+		}
+		
+		&__minimal{
+			top:unset !important;
+			bottom: 1.5em;
+			background-position: center;
+		}
+
+		&__text{
+			strong{
+				font-size: 1em;
+			}
+		}
+
+		&__text-minimal{
+			font-size: 1.2em;
+		}
+
+		&__text-minimal-cube{
+			font-size: 1.2em;
+		}
+	}
+}
+
+@include adaptive-360{
+	.poster-text{
+		&__text-minimal{
+		}
+
+		&__text{
+			font-size: 1em;
+		}
+	}
+}

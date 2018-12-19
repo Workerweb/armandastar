@@ -1,0 +1,120 @@
+@import '../helpers/breakpoints.scss';
+
+.end-text{
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 4em 0em;
+
+	&__row{
+		margin: auto;
+	}
+
+	&__wrap{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+
+	&__hr{
+		margin: 20px auto;
+	}
+
+	&__text{
+		text-align: left;
+		font-size: 1.1em;
+		color:#333;
+		font-family: 'Montserrat-Light';
+		margin: auto;
+		width: 50%;
+	}
+
+	&__text-bold{
+		text-align: left;
+		font-size: 35px;
+		line-height: 37px;
+		color: #2b2b2b;
+		font-family: "Montserrat";
+		font-weight: 800;
+		margin: auto;
+		width: 40%;
+
+		&.rustem-end-text{
+			width: 70%;
+		}
+	}
+}
+
+@include adaptive-1460{
+	.end-text{
+		font-size: 14px;
+		
+		&__text-bold{
+			font-size: 32px;
+			margin: auto;
+			width: 60%;
+		}
+	}
+}
+
+@include adaptive-m{
+	.end-text{
+		font-size: 12px;
+		
+		&__text-bold{
+			font-size: 20px;
+			margin: auto;
+			width: 60%;
+		}
+	}
+}
+
+@include adaptive-768{
+	.end-text{
+
+		&__text{
+		}
+
+		&__hr{
+			max-width: 100%;
+			height: auto;
+			object-fit: cover;
+		}
+		&__text-bold{
+			margin: auto;
+			line-height: 30px;
+		}
+	}
+}
+
+@include adaptive-480{
+	.end-text{
+		&__text{
+			width: 90%;
+		}
+
+		&__text-bold{
+			width: 90%;
+			margin: auto;
+			line-height: 20px;
+		}
+	}
+}
+
+@include adaptive-360{
+	.end-text{
+		&__text-bold{
+			width: 90%;
+			font-size: 15px;
+			margin: auto;
+			line-height: 20px;
+
+			&.rustem-end-text{
+				width: 90%;
+			}
+		}
+	}
+}

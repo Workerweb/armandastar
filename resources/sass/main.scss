@@ -1,0 +1,50 @@
+// variables
+@import "variables";
+
+// fonts
+@import "fonts";
+
+//blocks
+@import 'blocks/video-block';
+@import 'blocks/main-text';
+
+//hero detailed pages elements
+@import 'blocks/hero-header';
+@import 'blocks/hero-video-text';
+@import 'blocks/hero-interactive-block';
+@import 'blocks/hero-poster-text';
+@import 'blocks/hero-end-text';
+@import 'blocks/fullpage-header';
+
+//components
+@import 'components/move-down';
+@import 'components/move-top';
+
+
+//fullpage
+@import 'fullpage/hero-fullpage-text';
+@import 'fullpage/fullpage-wrapper';
+@import 'fullpage/fullpage-text';
+
+@import 'fullpage/fullpage-common';
+@import 'fullpage/fullpage-back-block';
+@import 'fullpage/fullpage-main-block';
+@import 'fullpage/fullpage-video-block';
+
+//additinoal setting
+@import 'blocks/common-values';
+@import 'blocks/adaptive_poster';
+
+//helpers
+@import "helpers/breakpoints";
+
+//layouts
+@import "layouts/app";
+
+//partials
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/drop-menu';
+@import 'partials/fullpage-footer';
+
+//blocks

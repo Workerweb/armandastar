@@ -1,0 +1,200 @@
+@import '../helpers/breakpoints';
+@import '../variables.scss';
+
+.fullpage-main-block{
+	font-size: $ff;
+
+	width: 30%;
+	min-height:100%;
+
+
+	padding:15em 2em 4em 6em; 
+
+	&__overlay{
+		width: 40%;
+		height: 100%;
+
+		position: absolute;
+		left:0;
+		top:0;
+		z-index: 91;
+
+		background: linear-gradient(to right , #111 , transparent)
+	}
+
+	&__text{
+		z-index: 92;
+		font-family: $font-regular;
+		color:#fff;
+		font-size: 1.3em;
+
+		position: relative;
+
+		span{
+			font-family: $font-bold;
+			font-size: 1.5em;
+			line-height: 1;
+		}
+	}
+
+	&__quote{
+		z-index: 92;
+		position: relative;	
+
+		font-family: $font-bold;
+		color:#fff;
+		font-size: 2em;
+		line-height: 1.2;
+
+	}
+
+	&__quote-name{
+		z-index: 92;
+		position: relative;	
+
+		color:#fff;
+		font-family: $font-light;
+		font-size: 1.2em;
+
+		text-align: right;
+
+		margin: 2.5em 0em 3.5em 0em;
+	}
+
+	&__quote-icon{
+		z-index: 92;
+
+		height: 55px;
+		width: auto;
+
+		position: absolute;
+		left: -1em;
+		top:-1em;	
+	}
+
+	&__quote-icon.reverse{
+		transform: rotate(180deg);
+		top:unset;
+		left:unset;
+		right: 1em;
+		bottom:-1em;		
+	}
+
+	&__other-hero{
+		position: relative;
+		z-index: 99;
+
+		font-size: 1.4em;
+		text-transform: uppercase;
+		font-family: $font-semibold;
+		color:#fff;
+
+		padding: 1em 2.5em;
+
+		background-image: url('/img/main/active-menu.png');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+
+		
+		&:hover{
+			text-decoration: none;
+			color:#fff;
+		};
+	}
+}
+
+@include adaptive-1460{
+	.fullpage-main-block{
+		font-size: 14px;
+
+		width: 35%;
+
+		&__overlay{
+			width: 35%;
+		}
+	
+	}
+}
+
+@include adaptive-1460{
+	.fullpage-main-block{
+		font-size: 12px;
+
+		&__text{
+			margin: .5em 0em;
+		}
+	
+	}
+}
+
+@include adaptive-768{
+	.fullpage-main-block{
+		width: 100%;
+
+		&__overlay{
+			width: 100%;
+			background: rgba(0,0,0,.3)
+
+		}
+
+		&__text{
+			font-size: 1.8em;
+			width: 90%;
+
+			span{
+				font-size: 1.2em;
+			}
+		}
+
+		&__quote-name{
+			font-size: 1.5em;
+		}		
+
+
+
+	
+	}
+}
+
+@include adaptive-480{
+	.fullpage-main-block{
+		padding:15em 2em 4em 2em;
+
+		&__overlay{
+			display: none;
+		}
+
+		&__text{
+			font-size: 1.4em;
+		} 
+
+		&__quote{
+			font-size: 1.5em;
+		}
+
+		&__quote-icon{
+			height: 35px;
+		}
+
+		&__other-hero{
+			font-size: 1.1em;
+		}
+
+
+	
+	}
+}
+
+@include adaptive-360{
+	.fullpage-main-block{
+		font-size: 12px;
+		padding:8em 2em 4em 2em;
+
+		&__quote-name{
+			margin: 1em 0em;
+			font-size: 1em;
+		}  
+	
+	}
+}

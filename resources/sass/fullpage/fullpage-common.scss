@@ -1,0 +1,8 @@
+@import '../helpers/breakpoints';
+@import '../variables.scss';
+
+@include adaptive-480{
+	#fp-nav{
+		display:none;
+	}
+}

@@ -1,0 +1,26 @@
+.fullpage-text-wrap{
+		font-size: 16px;
+		width: 40%;
+
+		padding:1em 4em; 
+}
+
+.fullpage-text{
+	z-index: 92;
+	position: relative;
+
+	font-size: 1.5em;
+	color:#fff;
+	font-family: $font-light;
+
+	padding-top: 90vh;
+	padding-bottom: 90vh;
+
+}
+
+@include adaptive-1460{
+	.fullpage-text-wrap{
+		font-size: 14px;
+	
+	}
+}

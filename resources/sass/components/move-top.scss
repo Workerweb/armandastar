@@ -1,0 +1,47 @@
+@import '../helpers/breakpoints';
+@import '../variables.scss';
+
+.move-top{
+	font-size: $ff;
+
+	position: fixed;
+
+	z-index: 99;
+
+	right:2em;
+	bottom: -5em;
+
+	cursor: pointer;
+
+	transition: all .3s ease-in-out;
+
+
+	&.active{
+		bottom: 5em;
+	}
+
+	&__image{
+		height: 50px;
+		width: auto;
+		object-fit: cover;
+	}
+
+
+}
+
+@include adaptive-768{
+	.move-top{
+		&.active{
+			bottom: 2em;
+		}
+
+		&.footer-active{
+			bottom: 12em;
+		}
+	
+
+		&__image{
+			height: 35px;
+		}
+	}
+}

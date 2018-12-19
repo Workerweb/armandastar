@@ -1,0 +1,249 @@
+@import '../helpers/breakpoints.scss';
+
+@include adaptive-m{
+	&.georgeAdaptive{
+			background-position: 80% 0;
+		}
+
+	&.rustemAdaptive{
+			background-position: 90% 0;
+		}
+
+	&.rustemposter1{
+			background-position: 80% 0;
+		}
+
+	&.rustemposter2{
+			background-position: 30% 0;
+		}
+
+	&.rustemposter4{
+			background-position: 30% 0;
+		}
+
+	&.rustemposter5{
+			background-position: 60% 0;
+		}
+
+	&.rustemposter6{
+			background-position: 80% 0;
+		}
+}
+
+@include adaptive-768{
+	.hero-header{
+
+		&.juldAdaptive{
+			background-position: 85% 0%;
+		}
+
+		&.twinAdaptive{
+			background-position: 21% 0%;
+
+			.hero-header__modal-title{
+				font-size: 2.5em;
+			}
+
+		}
+
+		&.headerDanyar{
+			background-position: 20% 0%;
+		}
+
+		&.samsonAdaptive{
+			background-position: 25% 0%;
+		}
+
+		&.kamilaAdaptive{
+			background-position: 45% 0%;
+		}
+
+		&.georgeAdaptive{
+			background-position: 80% 0;
+		}
+
+		&.aliyaAdaptive{
+			background-position: 60% 0;
+		}
+
+		&.rustemAdaptive{
+			background-position: 90% 0;
+		}		
+
+	}
+
+	.poster-text{
+		//juld
+		&.juld-poster{
+			background-position: 10% 0%;
+		}
+
+		&.juld-poster-2{
+			background-position: 30% 0%;
+
+			.poster-text__dialog{
+				background-size: contain;
+			}
+		}
+
+		&.juld-poster-2{
+			.poster-text__text-bold{
+				font-size: 1.5em;
+			}
+		}	
+
+		//Twins
+
+		&.twinPoster{
+			background-position: 10% 0%;
+		}
+
+		&.twinPoster2{
+			background-position: 80% 0%;
+		}	
+
+
+		&.twinPoster3{
+			background-position: 25% 0%;
+		}	
+
+		//Danyar
+
+		&.posterDanyar{
+			background-position: 25% 0%;
+		}	
+
+		&.posterDanyar2{
+			background-position: 80% 0%;
+		}	
+
+		//samson
+		&.samson-poster{
+			background-position: 80% 0%;
+		}
+
+		&.samson-poster-1{
+			background-position: 30% 0%;
+		}		
+
+		&.samson-poster-2{
+			background-position: 70% 0%;
+		}		
+
+		&.samson-poster-3{
+			background-position: 50% 0%;
+		}		
+
+		&.samson-poster-4{
+			background-position: 0% 0%;
+		}	
+
+		//kamila
+		&.kamila-poster-1{
+			background-position: 80% 0%;
+
+		}
+
+		&.kamila-poster-2{
+			background-position: 15% 0%;
+			
+		}		
+
+		&.kamila-poster-3{
+			background-position: 70% 0%;
+			
+		}		
+
+		&.kamila-poster-4{
+			background-position: 80% 0%;
+			
+		}
+
+		//timur posters
+		&.timur-poster-1{
+			background-position: 30% 0%;
+
+		}
+
+		&.timur-poster-2{
+			background-position: 20% 0%;
+
+		}		
+
+		&.timur-poster-3{
+			background-position: 40% 0%;
+
+		}		
+
+		&.timur-poster-4{
+			background-position: 20% 0%;
+
+		}	
+
+		//alyia poster
+		&.aliyaposter3{
+			background-position: 45% 0;
+		}
+		&.aliyaposter5{
+			background-position: 60% 0;
+		}
+
+
+		//ruster poster
+		&.rustemposter1{
+			background-position: 70% 0;
+		}
+
+		&.rustemposter2{
+			background-position: 30% 0;
+		}
+
+		&.rustemposter4{
+			background-position: 20% 0;
+		}
+		
+		&.rustemposter5{
+			background-position: 60% 0;
+		}
+
+		&.rustemposter6{
+			background-position: 80% 0;
+		}					
+
+
+
+	}
+}
+
+@include adaptive-767{
+	.poster-text{
+		&.juld-poster-2{
+			.poster-text__dialog{
+				background-image: url('/img/heroes/modal_01.png') !important;
+				background-size: cover;				
+			}
+			.poster-text__text-bold{
+				font-size: 2.5em;
+			}
+		}
+	}
+	.hero-header{
+		&.georgeAdaptive{
+			background-position: 90% 0;
+		}
+	}	
+}
+
+@include adaptive-480{
+	.hero-header{
+		&.georgeAdaptive{
+			background-position: 70% 0;
+		}
+	}
+	.poster-text{
+		&.aliyaposter5{
+			background-position: 70% 0;
+		}
+	}
+	
+}

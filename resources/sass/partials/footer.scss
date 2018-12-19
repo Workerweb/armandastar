@@ -1,0 +1,102 @@
+@import '../helpers/breakpoints.scss';
+
+.footer{
+	font-size: 16px;
+	padding: 5.8em 6.25em 7.6em 6.25em !important;
+
+	background-image: url('/img/main/footer-back.png');
+	background-size: cover;
+	background-repeat: repeat-x;
+	background-position: center;
+
+	&__logo{
+		width:90%;
+		height:auto;
+		object-fit:cover;
+	}
+
+	&__contact-block{
+		margin: 2em 0em;
+	}
+
+	&__contact{
+		margin: 0em;
+		color:#fff;
+		font-family: 'Montserrat-Light';
+		font-size: 1.25em;
+	}
+
+	&__support{
+		display: flex;
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+
+		&-title{
+			font-size: 1.5em;
+			font-family: 'Montserrat-SemiBold';
+			color:#fff;
+		}
+
+		&-list{
+			display: flex;
+			flex-direction:row;
+			align-items:flex-start;
+			justify-content:space-between;
+
+			padding: 2em 0em;
+		}
+
+		&-block{
+			display: flex;
+			flex-direction:column;
+			align-items:center;
+			justify-content:flex-start;
+
+			max-width: 30%;
+		}
+
+		&-image{
+			max-width: 100%;
+			height: auto;
+
+			min-height: 50px;
+			margin: .8em 0em;
+		}
+
+		&-text{
+			color:#fff;
+			font-family: 'Montserrat-SemiBold';
+			font-size: .6em;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+
+	}
+}
+
+@include adaptive-l{
+	.footer{
+		font-size: 15px;
+		padding: 3.8em 4.25em 4.6em 4.25em !important;
+
+	}
+}
+
+@include adaptive-m{
+	.footer{
+		font-size: 12px;
+
+	}
+}
+
+@include adaptive-480{
+	.footer{
+
+		&__contact{
+			text-align: center;
+		}
+
+	}
+}

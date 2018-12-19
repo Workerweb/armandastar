@@ -1,0 +1,201 @@
+@import '../helpers/breakpoints.scss';
+
+.fullpage-header{
+	font-size: 16px;
+
+	min-height: 100vh;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 110% 110%;
+
+	
+
+	&__wrap{
+		position: relative;
+		min-height: 100vh;
+	}
+
+	&__parallax-image{
+		width: 90%;
+		height: 90%;
+
+		object-fit: cover;
+
+		position: absolute;
+		bottom: 0px;
+
+		right: 0;
+
+	}
+
+	&__modal{
+		color:#fff;
+
+		background-image: url('/img/heroes/info_text.png');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+
+		width: 50%;
+		min-height: 300px;
+
+		position: absolute;
+		left:-10%;
+		top:55%;
+		
+		padding-left: 15%;
+
+		display: flex;
+		flex-direction:column;
+		align-items:flex-start;
+		justify-content:center;
+
+		&.right{
+			left: auto;
+			right: -10%;
+
+			width: 60%;
+
+			padding-left: 0%;
+			padding-right: 15%;
+
+			align-items: flex-end;
+
+			background-image: url('/img/heroes/info_text_reverse.png');
+		}
+
+		&.bold-title{
+			.hero-header__modal-title{
+				font-family:'Montserrat-ExtraBold';
+				text-transform: uppercase;
+				font-size: 2.5em;				
+			}
+		}
+
+		&-title{
+			font-family:'Drina';
+			font-size: 5em;
+		}
+
+		&-text{
+			font-family:'Montserrat-Light';
+			font-size: 1.5em;
+
+			span{
+				font-family: 'Montserrat-SemiBold';
+			}
+		}	
+
+		 animation-duration: 3s;
+		  animation-delay: 2s;
+		  animation-iteration-count: 1;	
+	}
+}
+
+@include adaptive-1460{
+	.hero-header{
+		&__modal{
+			width: 70%;
+			bottom: 0;
+
+			&-title{
+				font-size: 3em;
+			}
+			&-text{
+				font-size: 1.2em;
+			}
+			&.bold-title{
+				.hero-header__modal-title{
+					font-family:'Montserrat-ExtraBold';
+					text-transform: uppercase;
+					font-size: 3em;				
+				}
+			}
+		}
+
+	}
+}
+
+@include adaptive-m {
+	.hero-header{
+		&__modal{
+			width: 70%;
+			bottom: 0;
+
+			&.bold-title{
+				.hero-header__modal-title{
+					font-family:'Montserrat-ExtraBold';
+					text-transform: uppercase;
+					font-size: 2em;				
+				}
+			}
+		}
+
+	}
+}
+
+@include adaptive-768{
+	.hero-header{
+		font-size: 14px;
+
+		&__modal{
+			width: 100%;
+
+			left:0;
+			right:0;
+			top:unset;
+			bottom:2em;
+
+			align-items: center;
+
+			padding-left: 0;
+			
+			margin-left:auto;
+			margin-right:auto;
+
+			&.right{
+				width: 100%;
+
+				left:0;
+				right:0;
+				top:unset;
+				bottom:2em;
+
+				align-items: center;
+
+				padding-left: 0;
+				padding-right: 0;
+				
+				margin-left:auto;
+				margin-right:auto;				
+			}
+		}
+
+	}
+}
+
+@include adaptive-480{
+	.hero-header{
+
+		&__modal{
+			bottom: 0;
+			top: 60%;
+
+			&-title{
+				margin: .2em;
+			}
+		}
+	}
+}
+
+@include adaptive-360{
+	.hero-header{
+		font-size: 12px;
+
+		&__modal{
+			bottom: 1em;
+		}
+
+	}
+}
