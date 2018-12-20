@@ -448,8 +448,9 @@
 }
 
 .hero-header__modal-title {
-  font-family: 'Drina';
-  font-size: 5em;
+  font-family: 'Montserrat-ExtraBold';
+  text-transform: uppercase;
+  font-size: 2.5em;
 }
 
 .hero-header__modal-text {
