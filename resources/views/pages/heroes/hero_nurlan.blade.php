@@ -65,7 +65,8 @@
 				<p class="fullpage-main-block__text">
 					Мен өзімді бақыттымын деп есептеймін. Себебі менің әке-шешем сондай тәрбие берген. Біздің үлкен үйде 24 сағат есік ашық, 24 сағат дастархан жиналмайтын. Ауылға келген адамдардың барлығы біздің үйге соқпай кетпейтін. Әкем сондай ашық адам. Аузын ашса, жүрегі көрініп тұрады. Анам үнемі өзгерелердің амандығын тілеп, дұға етіп отырады. Сондықтан, сондай кісілердің ұрпағы болғаннан кейін, маған бақытсыз болу мүмкін емес. Адам егер өзі талпынып, үйде жатпай, ақырын ғана өз ісін домалата берсе, Қазақстанда бүкіл мүмкіншілік бар.
 				</p>
-				<p class="fullpage-main-block__text">
+
+				<p class="fullpage-main-block__text last">
 					<span>
 						Мемлекет бізге не береді деп емес, біз мемлекетке не бере аламыз деп ойлауымыз керек. Сонда біз дамимыз.
 					</span>
@@ -90,7 +91,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_09/hero_09_04.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='video'  data-video="/video/nurlan/nurlan_1.mp4">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					Ауылға көмегімді, ең бірінші, мешіттен бастадым. Кейін ауыл балаларына арнап спорт алаңын жасадым. Ал ауылда қалай? Үлкеннің жанында кішісі жүреді емес пе?! Содан кішілеріне балалар ойын алаңын салып бердім. Бұл бір жылда қолға алынған шаруа. Келер жылы достарыммен ақылдасып омыраудағы балалары бар аналарға арнап демалатын алма бағын жасауды ұйғардым. Бүкіл ауыл болып, 130 түп алма ағашын отырғыздық. «Жұмыла көтерген, жүк жеңіл» дейді ғой. Жалпы, бұл шаруалардың барлығын өзіміздің күшімізбен ауыл болып атқардық.
@@ -136,6 +137,17 @@
 						Әрбіреуіміз күш салсақ, ерінбей еңбек етсек, болашағымыз бүгіннен де жарқын болады. Оған кәміл сенемін.
 					</span>
 				</p>
+							
+				
+			</div>
+
+		</div>
+
+		<div class="section">
+
+			<div class="fullpage-main-block indicator"  data-back-type='video'  data-video="/video/nurlan/nurlan_2.mp4">
+				<div class="fullpage-main-block__overlay"></div>			
+
 				<p class="fullpage-main-block__quote">
 					<img class="fullpage-main-block__quote-icon" src="/img/icons/quote.png" alt="">
 					<img class="fullpage-main-block__quote-icon reverse" src="/img/icons/quote.png" alt="">
@@ -146,13 +158,13 @@
 
 				<p class="fullpage-main-block__quote-name">(c) Нұрлан Қалтаев</p>	
 
-				<a class="fullpage-main-block__other-hero" href="/hero_juld">Еще герои</a>			
-				
-			</div>
+				<a class="fullpage-main-block__other-hero" href="/hero_juld">Еще герои</a>
+			</div>			
 
-			@include('pages.layouts.partials.fullpage-footer')
+			@include('pages.layouts.partials.fullpage-footer')	
+		</div>		
 
-			</div>
+
 
 		</div>
 

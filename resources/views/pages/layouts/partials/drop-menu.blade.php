@@ -21,25 +21,32 @@
         </a>
         
         <a 
-        class="drop-menu__block" href="/dev">
-            <p class="drop-menu__block-text">Тимур <br>Коробейников</p>
-            <img class="drop-menu__block-image" src="/img/menu/hero_4.png" alt="">
+        class="drop-menu__block active" href="/hero_nurlan">
+            <p class="drop-menu__block-text">Нурлан <br>Калтаев</p>
+            <img class="drop-menu__block-image" src="/img/menu/hero_8.png" alt="">
         </a>
-        
+
+
         <a 
-        class="drop-menu__block" href="/dev">
-            <p class="drop-menu__block-text">Камиля  <br>Сулейменова</p>
-            <img class="drop-menu__block-image" src="/img/menu/hero_5.png" alt="">
-        </a>
+        class="drop-menu__block active" href="/hero_genadiy">
+            <p class="drop-menu__block-text">Геннадий <br>Мороз</p>
+            <img class="drop-menu__block-image" src="/img/menu/hero_12.png" alt="">
+        </a>        
+
+  
+        
         <!-- *********************************REPEATED PART*****************************************-->
 
 
         
         <!-- *********************************REPEATED PART*****************************************-->
-            <a class="drop-menu__block" href="/dev">
-            <p class="drop-menu__block-text">Данияр <br>Айтышев</p>
-            <img class="drop-menu__block-image" src="/img/menu/hero_6.png" alt="">
-        </a>
+
+        <a 
+        class="drop-menu__block active" href="/hero_lyudmila">
+            <p class="drop-menu__block-text">Людмила <br>Куфонина</p>
+            <img class="drop-menu__block-image" src="/img/menu/hero_20.png" alt="">
+        </a>         
+
         
         <a 
         class="drop-menu__block" href="/dev">
@@ -49,8 +56,8 @@
         
         <a 
         class="drop-menu__block" href="/dev">
-            <p class="drop-menu__block-text">Нурлан <br>Калтаев</p>
-            <img class="drop-menu__block-image" src="/img/menu/hero_8.png" alt="">
+            <p class="drop-menu__block-text">Камиля  <br>Сулейменова</p>
+            <img class="drop-menu__block-image" src="/img/menu/hero_5.png" alt="">
         </a>
         
         <a 
@@ -70,17 +77,20 @@
 
 
         <!-- *********************************REPEATED PART*****************************************-->
+        
+      <a 
+        class="drop-menu__block" href="/dev">
+            <p class="drop-menu__block-text">Тимур <br>Коробейников</p>
+            <img class="drop-menu__block-image" src="/img/menu/hero_4.png" alt="">
+        </a>
+
+
         <a 
         class="drop-menu__block" href="/dev">
             <p class="drop-menu__block-text">Саида и Дина <br>Ыбышевы</p>
             <img class="drop-menu__block-image" src="/img/menu/hero_11.png" alt="">
         </a>
         
-        <a 
-        class="drop-menu__block" href="/dev">
-            <p class="drop-menu__block-text">Геннадий <br>Мороз</p>
-            <img class="drop-menu__block-image" src="/img/menu/hero_12.png" alt="">
-        </a>
         
         <a 
         class="drop-menu__block" href="/dev">
@@ -129,10 +139,11 @@
             <img class="drop-menu__block-image" src="/img/menu/hero_19.png" alt="">
         </a>
         
-        <a 
-        class="drop-menu__block" href="">
-            <p class="drop-menu__block-text">Людмила <br>Куфонина</p>
-            <img class="drop-menu__block-image" src="/img/menu/hero_20.png" alt="">
+
+
+       <a class="drop-menu__block" href="/dev">
+            <p class="drop-menu__block-text">Данияр <br>Айтышев</p>
+            <img class="drop-menu__block-image" src="/img/menu/hero_6.png" alt="">
         </a>
         
         <!-- 
