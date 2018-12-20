@@ -26,7 +26,7 @@
 			@component('pages.layouts.blocks.hero-header',
 	                ['title'=>'Генадий Мороз',
 	                'text'=>'Восточно-Казахстанская область, <br>Бескарагайский район, пос. Старая Крепость <br>Земледелец',
-	                'image'=>'/img/hero_07/hero_07_01.jpg',
+	                'image'=>'/img/hero_genadiy/hero_07_01.jpg',
 	                'customClass'=>'bold-title',
 	                'customClassMain'=>'genaAdaptive',
 	                'animation'=>'fadeInLeftBig'
@@ -39,7 +39,7 @@
 			<div class="fullpage-video-block indicator"  data-back-type='block' >
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
-				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_07/hero_07_05.jpg" controls autoplay muted loop>
+				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_genadiy/hero_07_05.jpg" controls autoplay muted loop>
 				    <source src="/video/genadiy/genadiy_0.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -50,7 +50,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_07/hero_07_02.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_genadiy/hero_07_02.jpg">
 				<div class="fullpage-main-block__overlay">
 				</div>
 				<p class="fullpage-main-block__text">
@@ -96,7 +96,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_07/hero_07_04.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_genadiy/hero_07_04.jpg">
 				<div class="fullpage-main-block__overlay">
 				</div>
 
@@ -127,7 +127,7 @@
 
 	<div class="section">
 
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_07/hero_07_05.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_genadiy/hero_07_05.jpg">
 				<div class="fullpage-main-block__overlay"></div>			
 
 				<p class="fullpage-main-block__quote">

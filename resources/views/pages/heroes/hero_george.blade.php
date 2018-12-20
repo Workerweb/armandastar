@@ -21,12 +21,12 @@
 
 	<div id="fullpage-demo">
 		<div class="section" >
-			<div class="indicator"   data-back-type='image'  data-image="/img/hero_04/hero_04_01.jpg" ></div>
+			<div class="indicator"   data-back-type='image'  data-image="/img/hero_george/hero_04_01.jpg" ></div>
 			@include('pages.layouts.partials.header')
 			@component('pages.layouts.blocks.hero-header',
 	            ['title'=>'Георгий Патриашвили',
 	            'text'=>'Предприниматель из <span>Алматы</span>',
-	            'image'=>'/img/hero_04/hero_04_01.jpg',
+	            'image'=>'/img/hero_george/hero_04_01.jpg',
 	            'customClass'=>'bold-title',
 	            'customClassMain'=>'georgeAdaptive',
 	            'animation'=>'fadeInLeftBig'
@@ -39,7 +39,7 @@
 			<div class="fullpage-video-block indicator"  data-back-type='block' >
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
-				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_04/hero_04_02.jpg" controls autoplay muted loop>
+				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_george/hero_04_02.jpg" controls autoplay muted loop>
 				    <source src="/video/george/george_0.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -50,7 +50,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_04/hero_04_02.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_george/hero_04_02.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					В детстве я мечтал стать партнером Зинедина Зидана по сборной Франции и по мадридскому Реалу. Хотел быть профессиональным футболистом. Но родители посчитали, что футбол – это довольно травматичный вид спорта, и отдали меня на волейбол. Я долго играл за алматинский клуб. Были победы и на чемпионате Казахстана, и на кубке Казахстана. Даже успел поиграть за юношескую сборную. Когда пришло время выбирать между профессиональным спортом и учебой, выбрал второе.
@@ -65,7 +65,7 @@
 
 		<div class="section">
 
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_04/hero_04_03.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_george/hero_04_03.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 
 				<p class="fullpage-main-block__text">
@@ -91,7 +91,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_04/hero_04_05.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_george/hero_04_05.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 
 				<p class="fullpage-main-block__text">
@@ -117,7 +117,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_04/hero_04_07.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_george/hero_04_07.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					Киберспорт может повлиять на имиджевую составляющую Казахстана. Если мы вырастим игрока, который завтра станет чемпионом мира – об этом узнает вся планета. Если казахстанский флаг будет поднят на чемпионате мира по Доте или Counter Strike, то это уже сложит определенное мнение о нашей стране. Мы хотим, чтобы киберспорт стал национальным видом спорта в Казахстане. Пеле говорил: «В мире знают три вещи: кока-кола, Иисус и Пеле». Я хочу, чтобы ProgressGaming стал четвертой. Это моя мечта.
@@ -130,7 +130,7 @@
 
 		<div class="section">
 
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_04/hero_04_06.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_george/hero_04_06.jpg">
 				<div class="fullpage-main-block__overlay"></div>			
 
 				<p class="fullpage-main-block__quote">

@@ -22,12 +22,12 @@
 	<div id="fullpage-demo">
 
 		<div class="section" >
-			<div class="indicator"   data-back-type='image'  data-image="/img/hero_06/hero_06_01.jpg" ></div>
+			<div class="indicator"   data-back-type='image'  data-image="/img/hero_rustem/hero_06_01.jpg" ></div>
 			@include('pages.layouts.partials.header')
 			@component('pages.layouts.blocks.hero-header',
 		                ['title'=>'Рустем Сундетов',
 		                'text'=>'производитель 3D-принтеров из <span>Алматы</span>',
-		                'image'=>'/img/hero_06/hero_06_01.jpg',
+		                'image'=>'/img/hero_rustem/hero_06_01.jpg',
 		                'customClass'=>'bold-title ',
 		                'customClassMain'=>'rustemAdaptive',
 		                'animation'=>'fadeInLeftBig'
@@ -40,7 +40,7 @@
 			<div class="fullpage-video-block indicator"  data-back-type='block' >
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
-				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_06/hero_06_05.jpg" controls autoplay muted loop>
+				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_rustem/hero_06_05.jpg" controls autoplay muted loop>
 				    <source src="/video/rustem/rustem_0.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -51,7 +51,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_06/hero_06_02.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_rustem/hero_06_02.jpg">
 				<div class="fullpage-main-block__overlay">
 				</div>
 				<p class="fullpage-main-block__text">
@@ -96,7 +96,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_06/hero_06_04.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_rustem/hero_06_04.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					<span>
@@ -125,7 +125,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_06/hero_06_06.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_rustem/hero_06_06.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					Есть клиники, которые применяют 3D-принтеры для тренировки на макетах перед операцией. Макет – копия человека, которого оперируют, тем самым уменьшая время операции и ускоряя восстанавливаемость организма.
@@ -143,7 +143,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_06/hero_06_05.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_rustem/hero_06_05.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					Важно верить в свой проект, но при этом уметь снимать розовые очки. Инвесторы обычно очень быстро снимают розовые очки. Многие обижаются и уходят. Как только человек признает, он начинает двигаться опять наверх.
@@ -159,7 +159,7 @@
 
 		<div class="section">
 
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_06/hero_06_07.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_rustem/hero_06_07.jpg">
 				<div class="fullpage-main-block__overlay"></div>			
 
 				<p class="fullpage-main-block__quote">

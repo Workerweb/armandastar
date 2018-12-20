@@ -23,12 +23,12 @@
 	<div id="fullpage-demo">
 
 		<div class="section" >
-			<div class="indicator"   data-back-type='image'  data-image="/img/hero_05/hero_05_05.jpg" ></div>
+			<div class="indicator"   data-back-type='image'  data-image="/img/hero_aliya/hero_05_05.jpg" ></div>
 			@include('pages.layouts.partials.header')
 			@component('pages.layouts.blocks.hero-header',
 		                ['title'=>'Алия Токтасынова',
 		                'text'=>'мастер спорта по қыз қуу из <span>Павлодара</span>',
-		                'image'=>'/img/hero_05/hero_05_01.jpg',
+		                'image'=>'/img/hero_aliya/hero_05_01.jpg',
 		                'customClass'=>'bold-title ',
 		                'customClassMain'=>'aliyaAdaptive',
 		                'animation'=>'fadeInLeftBig'
@@ -44,7 +44,7 @@
 			<div class="fullpage-video-block indicator"  data-back-type='block' >
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
-				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_05/hero_05_04.jpg" controls muted data-autoplay>
+				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_aliya/hero_05_04.jpg" controls muted data-autoplay>
 				    <source src="/video/alyia/hero_9.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -55,7 +55,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_05/hero_05_02.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_aliya/hero_05_02.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					<span>
@@ -73,7 +73,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_05/hero_05_03.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_aliya/hero_05_03.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">Родители привели в конную школу в 11 лет. Мой самый первый, самый главный и самый важный тренер в жизни научила меня всему.</p>
 				<p class="fullpage-main-block__text">
@@ -98,7 +98,7 @@
 		
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_05/hero_05_05.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_aliya/hero_05_05.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">У меня переменчивый характер, как у дикой лошади. Если чуть не удержал где-то, то умчусь восвояси, но все же стараюсь контролировать себя. Лошадь тебя чувствует, поэтому если ты ее боишься, то она будет играть с тобой, чтобы ты еще сильнее ее боялся. Надо быть одновременно строгим, сильным, но ласковым и добрым. Надо знать эту грань. Избалованная лошадь – это неуправляемая лошадь, а это 600 кг веса, которые нелегко остановить.</p>
 			</div>
@@ -119,7 +119,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_05/hero_05_04.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_aliya/hero_05_04.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">Иногда хотелось бросить спорт. На один год «уходила» в легкую атлетику. Но судьба делает так, что я возвращаюсь к лошадям. Даже сейчас я уже не в конном спорте, но в университете выбрала специальность «продуктивное коневодство». Хочу, чтобы у меня была своя ферма с лошадьми. Я точно знаю, что там будет много детей, которые с искренним желанием будут приходить и кататься на этих лошадях.</p>
 				<p class="fullpage-main-block__text">
@@ -136,7 +136,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_05/hero_05_06.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_aliya/hero_05_06.jpg">
 
 				<div class="fullpage-main-block__overlay"></div>
 
