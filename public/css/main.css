@@ -2766,7 +2766,7 @@
 }
 
 .fullpage-main-block__text.last {
-  padding-bottom: 10em;
+  padding-bottom: 14em;
 }
 
 .fullpage-main-block__quote {
@@ -3764,7 +3764,6 @@
 .footer__by-link {
   color: #fff;
   text-align: center;
-  text-transform: uppercase;
   font-family: "Montserrat-Light";
   font-size: 1.3em;
 }
@@ -4041,7 +4040,6 @@
 .fullpage-footer__by-link {
   color: #fff;
   text-align: center;
-  text-transform: uppercase;
   font-family: "Montserrat-Light";
   font-size: 1.3em;
 }
