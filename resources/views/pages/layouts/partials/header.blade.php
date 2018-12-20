@@ -49,12 +49,12 @@
                             </div>
 
                             <div class="header__item"><img class="header__item-hovered-image" src="/img/main/active-menu.png" alt="">
-                                <a href="#">Backstage</a>
+                                <a href="/dev">Backstage</a>
                                 
                             </div>
 
                             <div class="header__item"><img class="header__item-hovered-image" src="/img/main/active-menu.png" alt="">
-                                <a href="#">О проекте</a>
+                                <a href="/dev">О проекте</a>
                                 
                             </div>
 

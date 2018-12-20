@@ -37,6 +37,10 @@
 		}
 	}
 
+	&__text.last{
+		padding-bottom: 10em;
+	}
+
 	&__quote{
 		z-index: 92;
 		position: relative;	

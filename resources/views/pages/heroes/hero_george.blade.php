@@ -11,7 +11,7 @@
 
 		<video id="fullpage-back-block__video" class="fullpage-back-block__video" autoplay muted loop>
 		  <source src="/webm/9_1_back.webm" type="webm">
-		  <source src="/video/9_1_back.mp4" type="video/mp4">
+		  <source src="/video/george/9_1_back.mp4" type="video/mp4">
 		</video>
 	</div>
 
@@ -40,7 +40,7 @@
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
 				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_04/hero_04_02.jpg" controls autoplay muted loop>
-				    <source src="/video/hero_9.mp4" type="video/mp4">
+				    <source src="/video/george/hero_9.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 
@@ -55,7 +55,7 @@
 				<p class="fullpage-main-block__text">
 					В детстве я мечтал стать партнером Зинедина Зидана по сборной Франции и по мадридскому Реалу. Хотел быть профессиональным футболистом. Но родители посчитали, что футбол – это довольно травматичный вид спорта, и отдали меня на волейбол. Я долго играл за алматинский клуб. Были победы и на чемпионате Казахстана, и на кубке Казахстана. Даже успел поиграть за юношескую сборную. Когда пришло время выбирать между профессиональным спортом и учебой, выбрал второе.
 				</p>
-				<p class="fullpage-main-block__text">
+				<p class="fullpage-main-block__text  last">
 					Сейчас дети интересуются больше компьютерными играми, нежели традиционными видами спорта. Однако в киберспорте нет системности по подготовке игроков, оказанию агентских услуг и так далее. Так пришла идея о создании своей киберакадемии. А реализовалась она уже благодаря знаниям нюансов этой индустрии моего бизнес-партнера.
 				</p>
 
@@ -78,7 +78,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='video'  data-video="/video/george_1.mp4">
+			<div class="fullpage-main-block indicator" data-back-type='video'  data-video="/video/george/george_1.mp4">
 				<div class="fullpage-main-block__overlay"></div>
 
 				<p class="fullpage-main-block__text">
@@ -104,7 +104,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='video'  data-video="/video/george_2.mp4">
+			<div class="fullpage-main-block indicator" data-back-type='video'  data-video="/video/george/george_2.mp4">
 				<div class="fullpage-main-block__overlay"></div>
 
 				<p class="fullpage-main-block__text">

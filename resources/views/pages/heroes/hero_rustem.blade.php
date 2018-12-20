@@ -11,7 +11,7 @@
 
 		<video id="fullpage-back-block__video" class="fullpage-back-block__video" autoplay muted loop>
 		  <source src="/webm/9_1_back.webm" type="webm">
-		  <source src="/video/9_1_back.mp4" type="video/mp4">
+		  <source src="/video/rustem/9_1_back.mp4" type="video/mp4">
 		</video>
 	</div>
 
@@ -41,7 +41,7 @@
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
 				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_06/hero_06_05.jpg" controls autoplay muted loop>
-				    <source src="/video/hero_9.mp4" type="video/mp4">
+				    <source src="/video/rustem/hero_9.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 
@@ -71,7 +71,7 @@
 				<p class="fullpage-main-block__text">
 					В 2014 году я выиграл грант от министерства образования по разработке и производству 3D-принтеров. Государство довольно хорошо поддерживает бизнес, стартапы, существует много каналов, где можно получить финансирование. Они не только выделяют деньги, но и помогают с документацией, приглашают на научные выставки и т.д.
 				</p>
-				<p class="fullpage-main-block__text">
+				<p class="fullpage-main-block__text last">
 					Мы используем всемирно известную модель Prusa i3, которая находится в открытых источниках, и дорабатываем ее под свои нужды. Обидно, когда говорят, что мы просто копируем всё у китайцев. Даже просто скопировать технологии требуется много времени, ресурсов и знаний.
 				</p>
 
@@ -81,7 +81,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"   data-back-type='video'  data-video="/video/rustem_1.mp4">
+			<div class="fullpage-main-block indicator"   data-back-type='video'  data-video="/video/rustem/rustem_1.mp4">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					Я пошел преподавать в университет, чтобы найти единомышленников среди научной среды. Тех, кто смог бы мне помочь в развитии сферы 3D-принтеров. Мои студенты стали мне хорошими коллегами, а университет предоставил лабораторию для работы.
@@ -113,7 +113,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"   data-back-type='video'  data-video="/video/rustem_2.mp4">
+			<div class="fullpage-main-block indicator"   data-back-type='video'  data-video="/video/rustem/rustem_2.mp4">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					Основные клиенты – это учебные заведения. 3D-принтерами пользуются даже ювелиры и стоматологи для улучшения производственных процессов. Особенно в стоматологии. Человеческое тело не чувствительно к некоторым погрешностям, а 3D-принтер уже превышает точность, к которой чувствительно наше тело. Получается высококачественная и довольно дешевая продукция.

@@ -2765,6 +2765,10 @@
   line-height: 1;
 }
 
+.fullpage-main-block__text.last {
+  padding-bottom: 10em;
+}
+
 .fullpage-main-block__quote {
   z-index: 92;
   position: relative;
