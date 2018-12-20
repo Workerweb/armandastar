@@ -11,7 +11,7 @@
 
 		<video id="fullpage-back-block__video" class="fullpage-back-block__video" autoplay muted loop>
 		  <source src="/webm/9_1_back.webm" type="webm">
-		  <source src="/video/9_1_back.mp4" type="video/mp4">
+		  <source src="/video/george/9_1_back.mp4" type="video/mp4">
 		</video>
 	</div>
 
@@ -40,7 +40,7 @@
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
 				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_04/hero_04_02.jpg" controls autoplay muted loop>
-				    <source src="/video/hero_9.mp4" type="video/mp4">
+				    <source src="/video/george/hero_9.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 
@@ -55,7 +55,7 @@
 				<p class="fullpage-main-block__text">
 					В детстве я мечтал стать партнером Зинедина Зидана по сборной Франции и по мадридскому Реалу. Хотел быть профессиональным футболистом. Но родители посчитали, что футбол – это довольно травматичный вид спорта, и отдали меня на волейбол. Я долго играл за алматинский клуб. Были победы и на чемпионате Казахстана, и на кубке Казахстана. Даже успел поиграть за юношескую сборную. Когда пришло время выбирать между профессиональным спортом и учебой, выбрал второе.
 				</p>
-				<p class="fullpage-main-block__text">
+				<p class="fullpage-main-block__text  last">
 					Сейчас дети интересуются больше компьютерными играми, нежели традиционными видами спорта. Однако в киберспорте нет системности по подготовке игроков, оказанию агентских услуг и так далее. Так пришла идея о создании своей киберакадемии. А реализовалась она уже благодаря знаниям нюансов этой индустрии моего бизнес-партнера.
 				</p>
 
@@ -78,7 +78,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_04/hero_04_04.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='video'  data-video="/video/george/george_1.mp4">
 				<div class="fullpage-main-block__overlay"></div>
 
 				<p class="fullpage-main-block__text">
@@ -104,7 +104,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_04/hero_04_06.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='video'  data-video="/video/george/george_2.mp4">
 				<div class="fullpage-main-block__overlay"></div>
 
 				<p class="fullpage-main-block__text">
@@ -122,6 +122,17 @@
 				<p class="fullpage-main-block__text">
 					Киберспорт может повлиять на имиджевую составляющую Казахстана. Если мы вырастим игрока, который завтра станет чемпионом мира – об этом узнает вся планета. Если казахстанский флаг будет поднят на чемпионате мира по Доте или Counter Strike, то это уже сложит определенное мнение о нашей стране. Мы хотим, чтобы киберспорт стал национальным видом спорта в Казахстане. Пеле говорил: «В мире знают три вещи: кока-кола, Иисус и Пеле». Я хочу, чтобы ProgressGaming стал четвертой. Это моя мечта.
 				</p>
+					
+
+			</div>
+
+		</div>
+
+		<div class="section">
+
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_04/hero_04_06.jpg">
+				<div class="fullpage-main-block__overlay"></div>			
+
 				<p class="fullpage-main-block__quote">
 					<img class="fullpage-main-block__quote-icon" src="/img/icons/quote.png" alt="">
 					<img class="fullpage-main-block__quote-icon reverse" src="/img/icons/quote.png" alt="">
@@ -132,13 +143,13 @@
 
 				<p class="fullpage-main-block__quote-name">(c) Георгий Патриашвили</p>	
 
-				<a class="fullpage-main-block__other-hero" href="/hero_juld">Еще герои</a>		
+				<a class="fullpage-main-block__other-hero" href="/hero_juld">Еще герои</a>	
+			</div>			
 
-			</div>
+			@include('pages.layouts.partials.fullpage-footer')	
+		</div>	
 
-			@include('pages.layouts.partials.fullpage-footer')
 
-		</div>
 	</div>
 
 @endsection

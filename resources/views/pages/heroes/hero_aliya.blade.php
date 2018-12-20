@@ -10,8 +10,8 @@
 		<div id="fullpage-back-block__image" class="fullpage-back-block__image"></div>
 
 		<video id="fullpage-back-block__video" class="fullpage-back-block__video" autoplay muted loop>
-		  <source src="/webm/9_1_back.webm" type="webm">
-		  <source src="/video/9_1_back.mp4" type="video/mp4">
+		  <source src="/webm/alyia/9_1_back.webm" type="webm">
+		  <source src="/video/alyia/9_1_back.mp4" type="video/mp4">
 		</video>
 	</div>
 
@@ -44,8 +44,8 @@
 			<div class="fullpage-video-block indicator"  data-back-type='block' >
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
-				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_05/hero_05_04.jpg" controls>
-				    <source src="/video/hero_9.mp4" type="video/mp4">
+				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_05/hero_05_04.jpg" controls muted data-autoplay>
+				    <source src="/video/alyia/hero_9.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 
@@ -88,7 +88,7 @@
 		
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='video'  data-video="/video/video_9_1_s.mp4" data-webm="/webm/9_1_back.webm">
+			<div class="fullpage-main-block indicator"  data-back-type='video'  data-video="/video/alyia/video_9_1_s.mp4" data-webm="/webm/alyia/9_1_back.webm">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">Сейчас қыз қуу – не соревновательный вид спорта, его показывают только при открытии и закрытии скакового сезона, и где-то на больших скачках ради зрелищности. Я думаю, что это произошло из-за высокой травмоопасности. Однако показывать қыз қуу надо, это наши традиции. Родители сильно переживают за меня во время выступлений. Даже пытались отговорить заниматься конным спортом. Но если я начала, меня уже не остановить. Я у меня было много травм, но они видели с детства, что я не могу без них лошадей. И я благодарна им за то, что поддержали меня.</p>
 			</div>
@@ -108,7 +108,7 @@
 		
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='video'  data-video="/video/video_9_2_s.mp4" data-webm="/webm/9_2_back.webm">
+			<div class="fullpage-main-block indicator"  data-back-type='video'  data-video="/video/alyia/video_9_2_s.mp4" data-webm="/webm/alyia/9_2_back.webm">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">Вы в глаза посмотрите, да там целый мир можно увидеть. Они не просто животные. Их даже обидно животными называть. Это друзья человека.</p>
 				<p class="fullpage-main-block__text">Если мне плохо, иду за помощью к лошадям. Протянешь ей ладошку, она тебя бархатным носиком, пощекочет, погладит или понюхает. Успокаиваешься. Конечно, все проблемы не решены. Тут уже второй этап – найти в себе силы, чтобы их преодолеть. Если у меня какая-то проблема, я ее решу. Любую проблему в жизни.</p>

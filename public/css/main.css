@@ -2765,6 +2765,10 @@
   line-height: 1;
 }
 
+.fullpage-main-block__text.last {
+  padding-bottom: 10em;
+}
+
 .fullpage-main-block__quote {
   z-index: 92;
   position: relative;
@@ -2940,9 +2944,9 @@
 
 .fullpage-video-block__video {
   position: relative;
-  width: 100%;
-  height: auto;
-  max-height: 100%;
+  width: auto;
+  height: 100vh;
+  max-height: 100vh;
   z-index: 92;
 }
 
