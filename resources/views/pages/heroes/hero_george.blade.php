@@ -78,7 +78,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_04/hero_04_04.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='video'  data-video="/video/george_1.mp4">
 				<div class="fullpage-main-block__overlay"></div>
 
 				<p class="fullpage-main-block__text">
@@ -104,7 +104,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_04/hero_04_06.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='video'  data-video="/video/george_2.mp4">
 				<div class="fullpage-main-block__overlay"></div>
 
 				<p class="fullpage-main-block__text">
@@ -122,6 +122,17 @@
 				<p class="fullpage-main-block__text">
 					Киберспорт может повлиять на имиджевую составляющую Казахстана. Если мы вырастим игрока, который завтра станет чемпионом мира – об этом узнает вся планета. Если казахстанский флаг будет поднят на чемпионате мира по Доте или Counter Strike, то это уже сложит определенное мнение о нашей стране. Мы хотим, чтобы киберспорт стал национальным видом спорта в Казахстане. Пеле говорил: «В мире знают три вещи: кока-кола, Иисус и Пеле». Я хочу, чтобы ProgressGaming стал четвертой. Это моя мечта.
 				</p>
+					
+
+			</div>
+
+		</div>
+
+		<div class="section">
+
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_04/hero_04_06.jpg">
+				<div class="fullpage-main-block__overlay"></div>			
+
 				<p class="fullpage-main-block__quote">
 					<img class="fullpage-main-block__quote-icon" src="/img/icons/quote.png" alt="">
 					<img class="fullpage-main-block__quote-icon reverse" src="/img/icons/quote.png" alt="">
@@ -132,13 +143,13 @@
 
 				<p class="fullpage-main-block__quote-name">(c) Георгий Патриашвили</p>	
 
-				<a class="fullpage-main-block__other-hero" href="/hero_juld">Еще герои</a>		
+				<a class="fullpage-main-block__other-hero" href="/hero_juld">Еще герои</a>	
+			</div>			
 
-			</div>
+			@include('pages.layouts.partials.fullpage-footer')	
+		</div>	
 
-			@include('pages.layouts.partials.fullpage-footer')
 
-		</div>
 	</div>
 
 @endsection
