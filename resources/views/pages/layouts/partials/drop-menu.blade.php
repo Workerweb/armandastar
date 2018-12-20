@@ -49,7 +49,7 @@
 
         
         <a 
-        class="drop-menu__block" href="/dev">
+        class="drop-menu__block" href="/hero_samson">
             <p class="drop-menu__block-text">Самсон  <br>Аракелян</p>
             <img class="drop-menu__block-image" src="/img/menu/hero_7.png" alt="">
         </a>
