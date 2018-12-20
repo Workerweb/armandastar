@@ -70,9 +70,11 @@ let fullpageDemo = new fullpage('#fullpage-demo', {                             
             $('#fullpage-back-block__video').prop('muted',false)
          }
          else if(type=='block'){                                        //ТУт касается второго блока, в котором будет включатся видео
-            $('#fullpage-video-block__overlay').addClass('active')
-            $('#fullpage-video-block__video').get(0).play();
-            $('#fullpage-video-block__video').prop('muted',false);
+           $('#fullpage-back-block__video source').attr('src',video) 
+           $('#fullpage-back-block__video').addClass('active')
+            $('#fullpage-video-block__overlay').addClass('active')        //Данный класс сделан для того, чтобы делать темным фон изображения, так как в некоторых случаях, когда видео долго грузится выходит так, что на секунду выходит изображение. А так выходит то, что сначала темный фон, и просто потом поверх грузится само видео
+            $('#fullpage-back-block__video')[0].load()
+            $('#fullpage-back-block__video').prop('muted',false)
          }
 
      },
@@ -88,7 +90,6 @@ let fullpageDemo = new fullpage('#fullpage-demo', {                             
         $('#move-down-fullpage-center').removeClass('active')
 
         $('#fullpage-video-block__overlay').removeClass('active')   //Тут убирается затемнение для второго блока с видео
-         $('#fullpage-video-block__video').get(0).pause();
          $('#fullpage-back-block__video').get(0).pause();
 
 
@@ -116,7 +117,6 @@ $('#move-to-top').click(function(event) {
 });
 
 //Тут дальше прописсывается параллак эффект для определеннъ компонентов
-
 var movementStrength = 30;
 var height = movementStrength / $(window).height();
 var width = movementStrength / $(window).width();

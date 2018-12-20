@@ -39,19 +39,15 @@
 
 		</div>
 		
-		<div class="section">
-			
-			<div class="fullpage-video-block indicator"  data-back-type='block' >
-				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
-				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_aliya/hero_05_04.jpg" controls muted data-autoplay>
-				    <source src="/video/alyia/hero_9.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video>
-
-			</div>
-
-		</div>
+		<!-------------------------------------------HERO SECTION------------------------------------------------>
+		    <div class="section">
+		      
+		      <div class="fullpage-main-block indicator"   data-back-type='block'  data-video="/video/alyia/hero_9.mp4">
+		      </div>
+		      
+		    </div>    
+		<!-------------------------------------------HERO SECTION------------------------------------------------>		
 
 		<div class="section">
 			
