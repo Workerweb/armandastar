@@ -50,7 +50,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_08/hero_08_02.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='video'  data-video="/video/liydmila/liydmila_2.mp4">
 				<div class="fullpage-main-block__overlay">
 				</div>
 				<p class="fullpage-main-block__text">
@@ -67,7 +67,7 @@
 					Чуть ноги окрепли, я начала танцевать и петь. Мы с ребятами устраивали дворовые концерты для соседей. Сейчас петь уже не могу, сорвала голос на матчах, но об этом не жалею. Нужно уметь чем-то жертвовать, чтобы заниматься тем, чего хочет сердце.
 				</p>
 
-				<p class="fullpage-main-block__text">
+				<p class="fullpage-main-block__text last">
 					Первый билет на хоккейный матч мне подарил старший брат подруги. Он занимался хоккеем и предложил нам прийти. В тот же день я поняла, что буду ходить на все игры. Потом на матчи ходила одна и сидела вместе с пацанами. Некоторые болельщики возмущались: «Да что вы эту девчонку слушаете, что бы она могла там еще понимать?!». Но рядом сидящие мужчины им ответили «Эта девчонка в несколько раз лучше тебя понимает». Я как-то сразу вникла во все правила и рьяно болела за команду.
 				</p>
 
@@ -108,7 +108,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_08/hero_08_05.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='video'  data-video="/video/liydmila/liydmila_1.mp4">
 				<div class="fullpage-main-block__overlay">
 				</div>
 				<p class="fullpage-main-block__text">
@@ -119,6 +119,19 @@
 	            <p class="fullpage-main-block__text">
 	            	Я умею радоваться даже любой крошке. Нас так учили. Тяжелая жизнь была. Я не радуюсь деньгам, у меня нет лишних, только пенсия. И я считаю, что они вообще никогда не сделают тебя счастливым. А большие деньги и вовсе могут погубить человека. Для меня доброта — самое главное качество.
 	            </p>
+				
+
+			</div>
+
+		</div>
+
+
+
+		<div class="section">
+
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_08/hero_08_05.jpg">
+				<div class="fullpage-main-block__overlay"></div>			
+
 				<p class="fullpage-main-block__quote">
 					<img class="fullpage-main-block__quote-icon" src="/img/icons/quote.png" alt="">
 					<img class="fullpage-main-block__quote-icon reverse" src="/img/icons/quote.png" alt="">
@@ -129,13 +142,14 @@
 
 				<p class="fullpage-main-block__quote-name">(c) Людмила Куфонина</p>	
 
-				<a class="fullpage-main-block__other-hero" href="/hero_juld">Еще герои</a>
+				<a class="fullpage-main-block__other-hero" href="/hero_juld">Еще герои</a>	
+			</div>			
 
-			</div>
+			@include('pages.layouts.partials.fullpage-footer')	
+		</div>		
 
-			@include('pages.layouts.partials.fullpage-footer')
 
-		</div>
+
 
 	</div>	
 

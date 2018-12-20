@@ -70,7 +70,7 @@
 				<p class="fullpage-main-block__text">
 					Мы выращиваем декоративные деревья, которые подходят местному климату. Это пихта, лиственница, голубая ель, ель канадская сизая, туя западная и многое другое. Также у нас есть порядка 20 сортов яблони.
 				</p>
-				<p class="fullpage-main-block__text">
+				<p class="fullpage-main-block__text last">
 					<span>
 						Одни пилят лес, а я выращиваю. Это благородное дело!
 					</span>
@@ -82,7 +82,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_07/hero_07_03.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='video'  data-video="/video/genadiy/genadiy_1.mp4">
 				<div class="fullpage-main-block__overlay">
 				</div>
 
@@ -110,18 +110,29 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_07/hero_07_05.jpg">
-				<div class="fullpage-main-block__overlay">
-				</div>
+			<div class="fullpage-main-block indicator"  data-back-type='video'  data-video="/video/genadiy/genadiy_2.mp4">
+				<div class="fullpage-main-block__overlay"></div>
+
 				<p class="fullpage-main-block__text">
 					<span>
 						Любое дело подразумевает много заботы и внимания, с питомником я справляюсь. Могу и отдохнуть, и поболеть. В моём деле не нужно тратить много нервов. Здесь всё проще и спокойнее.
 					</span>
 				</p>
+
+			</div>
+
+
+		</div>
+
+
+	<div class="section">
+
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_07/hero_07_05.jpg">
+				<div class="fullpage-main-block__overlay"></div>			
+
 				<p class="fullpage-main-block__quote">
 					<img class="fullpage-main-block__quote-icon" src="/img/icons/quote.png" alt="">
 					<img class="fullpage-main-block__quote-icon reverse" src="/img/icons/quote.png" alt="">
-
 
 					Больше всего в людях я ценю трудолюбие, преданность и честность, потому что от лжи рушится всё вокруг.
 				</p>
@@ -129,12 +140,12 @@
 				<p class="fullpage-main-block__quote-name">(c) Генадий Мороз</p>	
 
 				<a class="fullpage-main-block__other-hero" href="/hero_juld">Еще герои</a>	
+			</div>			
 
-			</div>
+			@include('pages.layouts.partials.fullpage-footer')	
+		</div>		
 
-			@include('pages.layouts.partials.fullpage-footer')
 
-		</div>
 	</div>
 
 @endsection
