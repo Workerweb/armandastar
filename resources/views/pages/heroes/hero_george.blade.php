@@ -34,14 +34,19 @@
 			@endcomponent
 		</div>
 
-		<!-------------------------------------------HERO SECTION------------------------------------------------>
-		    <div class="section">
-		      
-		      <div class="fullpage-main-block indicator"   data-back-type='block'  data-video="/video/george/george_0.mp4">
-		      </div>
-		      
-		    </div>    
-		<!-------------------------------------------HERO SECTION------------------------------------------------>		
+		<div class="section">
+			
+			<div class="fullpage-video-block indicator"  data-back-type='block' >
+				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
+
+				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_george/hero_04_02.jpg" controls autoplay muted loop>
+				    <source src="/video/george/george_0.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+
+			</div>
+
+		</div>
 
 		<div class="section">
 			
