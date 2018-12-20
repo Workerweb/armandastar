@@ -40,7 +40,7 @@
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
 				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_07/hero_07_05.jpg" controls autoplay muted loop>
-				    <source src="/video/hero_9.mp4" type="video/mp4">
+				    <source src="/video/genadiy/genadiy_0.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 

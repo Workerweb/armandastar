@@ -41,7 +41,7 @@
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
 				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_06/hero_06_05.jpg" controls autoplay muted loop>
-				    <source src="/video/rustem/hero_9.mp4" type="video/mp4">
+				    <source src="/video/rustem/rustem_0.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 
