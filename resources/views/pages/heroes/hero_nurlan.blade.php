@@ -26,7 +26,7 @@
 			@component('pages.layouts.blocks.hero-header',
 	                ['title'=>'Нұрлан Қалтаев',
 	                'text'=>'<span>Қарағанды облысы Қоянды ауылынан</span>  жеке кәсіпкер',
-	                'image'=>'/img/hero_09/hero_09_01.jpg',
+	                'image'=>'/img/hero_nurlan/hero_09_01.jpg',
 	                'customClass'=>'bold-title',
 	                'customClassMain'=>'nurlanAdaptive',
 	                'animation'=>'fadeInLeftBig'
@@ -38,7 +38,7 @@
 			<div class="fullpage-video-block indicator"  data-back-type='block' >
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
-				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_09/hero_09_02.jpg" controls autoplay muted loop>
+				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_nurlan/hero_09_02.jpg" controls autoplay muted loop>
 				    <source src="/video/nurlan/nurlan_0.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -47,7 +47,7 @@
 		</div>
 
 		<div class="section">
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_09/hero_09_02.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_nurlan/hero_09_02.jpg">
 				<div class="fullpage-main-block__overlay">
 				</div>
 				<p class="fullpage-main-block__text">
@@ -77,7 +77,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_09/hero_09_03.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_nurlan/hero_09_03.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					Қолға алмаған кәсібім жоқ. Қой да бақтым, тракторда да жұмыс істедім. Ауылды сақтап қалайық деген уақытта 6 жыл егін салдым. Демалыс күндері ауылға барып, комбайнның моторын жинаймын. Тракторге отырып, шөп шабамын, егін саламын.
@@ -102,7 +102,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_09/hero_09_05.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_nurlan/hero_09_05.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					Ауыл адамдары топ-топ болып көше бастағандықтан, мектебіміз жабылудың сәл-ақ алдында тұрды. Содан мектепті сақтап қалу үшін бала санын арттыру қажет болды.  Осылайша, өте жақсы отбасын тауып, үй салып бердім. Балалар үйінен бірінші төрт баланы алып, сол кісілердің тәрбиесіне бердім. Жақында достарым арқылы Оңтүстік Қазақстан облысынан тағы екі жанұя таптым. Ендігі жылы дәл осындай екі балалар үйін салуды жоспарлап отырмын.
@@ -113,7 +113,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_09/hero_09_06.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_nurlan/hero_09_06.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">Арман деген ол өте үлкен зат. Қазіргі уақытта мен өз-өзімді тапқан азаматпын деп есептеймін. Ендігі арманым балаларым өздерін, өмірдегі өз жолдарын тапса деймін. Қатты ойланытыным да балаларым мен ауылым.</p>
 				<p class="fullpage-main-block__text">
@@ -127,7 +127,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_09/hero_09_07.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_nurlan/hero_09_07.jpg">
 				<div class="fullpage-main-block__overlay"></div>
 				<p class="fullpage-main-block__text">
 					Балаларды жаттықтырып, тәрбиелеп келе жатқаныма 10 жылдан асты. Қазіргі уақытта қарасам, әр салада бір-бір дұрыс тәрбиеленген, тұлға болып қалыптасып, азамат болып отырған шәкірттерім бар. Соларға қарап, істеп отырған ісімнің босқа кетіп жатпағанын түсінемін.Елімді, жерімді ешқашан ауыстырмаймын. Қазақстанға жететін жер жоқ. Жұмысымыз бар. Басшымыз жақсы. Жеріміз кең-байтақ.

@@ -26,7 +26,7 @@
 			@component('pages.layouts.blocks.hero-header',
 	                ['title'=>'Людмила Куфонина',
 	                'text'=>'Болельщица из <span>Астаны</span>',
-	                'image'=>'/img/hero_08/hero_08_01.jpg',
+	                'image'=>'/img/hero_liydmila/hero_08_01.jpg',
 	                'customClass'=>'bold-title',
 	                'customClassMain'=>'lyudmilaAdaptive',
 	                'animation'=>'fadeInLeftBig'
@@ -39,7 +39,7 @@
 			<div class="fullpage-video-block indicator"  data-back-type='block' >
 				<div id="fullpage-video-block__overlay" class="fullpage-video-block__overlay"></div>
 
-				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_08/hero_08_02.jpg" controls autoplay muted loop>
+				<video id="fullpage-video-block__video" class="fullpage-video-block__video" poster="/img/hero_liydmila/hero_08_02.jpg" controls autoplay muted loop>
 				    <source src="/video/liydmila/liydmila_0.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -77,7 +77,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_08/hero_08_03.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_liydmila/hero_08_03.jpg">
 				<div class="fullpage-main-block__overlay">
 				</div>
 				<p class="fullpage-main-block__text">
@@ -95,7 +95,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_08/hero_08_04.jpg">
+			<div class="fullpage-main-block indicator" data-back-type='image'  data-image="/img/hero_liydmila/hero_08_04.jpg">
 				<div class="fullpage-main-block__overlay">
 				</div>
 				<p class="fullpage-main-block__text">
@@ -129,7 +129,7 @@
 
 		<div class="section">
 
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_08/hero_08_05.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_liydmila/hero_08_05.jpg">
 				<div class="fullpage-main-block__overlay"></div>			
 
 				<p class="fullpage-main-block__quote">
