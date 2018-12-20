@@ -3928,6 +3928,7 @@
   margin: .5em 0em 0em 0em;
   text-align: right;
   margin-right: -.5em;
+  z-index: 91;
 }
 
 .drop-menu__block-image {
@@ -4000,6 +4001,9 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .fullpage-footer__logo {
@@ -4039,6 +4043,7 @@
   text-transform: uppercase;
   font-family: "Montserrat-SemiBold";
   font-size: 1.3em;
+  margin-bottom: 2em;
 }
 
 .fullpage-footer__by-link {

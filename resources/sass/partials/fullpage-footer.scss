@@ -27,6 +27,7 @@
 
 	&__col.left{
 		align-items: flex-start;
+		justify-content: flex-start;
 	}
 
 	&__logo{
@@ -65,7 +66,8 @@
 		text-align: center;
 		text-transform: uppercase;
 		font-family: $font-semibold;
-		font-size: 1.3em;		
+		font-size: 1.3em;
+		margin-bottom: 2em;		
 	}
 
 	&__by-logo{

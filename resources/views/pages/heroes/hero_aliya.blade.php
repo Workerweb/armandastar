@@ -136,7 +136,7 @@
 
 		<div class="section">
 			
-			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_aliya/hero_05_06.jpg">
+			<div class="fullpage-main-block indicator"  data-back-type='image'  data-image="/img/hero_aliya/hero_05_06_back.jpg">
 
 				<div class="fullpage-main-block__overlay"></div>
 
