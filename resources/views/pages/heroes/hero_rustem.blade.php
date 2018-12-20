@@ -37,7 +37,7 @@
 		<!-------------------------------------------HERO SECTION------------------------------------------------>
 		    <div class="section">
 		      
-		      <div class="fullpage-main-block indicator"   data-back-type='block'  data-video="/video/rustem/rustem_0.mp4">
+		      <div class="fullpage-main-block indicator"   data-back-type='block_second_type'  data-video="/video/rustem/rustem_0.mp4">
 		      </div>
 		      
 		    </div>    

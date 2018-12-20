@@ -69,12 +69,19 @@ let fullpageDemo = new fullpage('#fullpage-demo', {                             
             $('#fullpage-back-block__video')[0].load()
             $('#fullpage-back-block__video').prop('muted',false)
          }
-         else if(type=='block'){                                        //ТУт касается второго блока, в котором будет включатся видео
-           $('#fullpage-back-block__video source').attr('src',video) 
-           $('#fullpage-back-block__video').addClass('active')
+         else if(type=='block'){
+            $('#fullpage-video-block__overlay').addClass('active')
+            $('#fullpage-video-block__video').get(0).play();
+            $('#fullpage-video-block__video').prop('muted',false);
+         }
+         else if(type=='block_second_type'){                                        //ТУт касается второго блока, в котором будет включатся видео
+            $('.fullpage-back-block').addClass('active')
+            $('#fullpage-back-block__video source').attr('src',video) 
+            $('#fullpage-back-block__video').addClass('active')
             $('#fullpage-video-block__overlay').addClass('active')        //Данный класс сделан для того, чтобы делать темным фон изображения, так как в некоторых случаях, когда видео долго грузится выходит так, что на секунду выходит изображение. А так выходит то, что сначала темный фон, и просто потом поверх грузится само видео
             $('#fullpage-back-block__video')[0].load()
             $('#fullpage-back-block__video').prop('muted',false)
+            $('#fullpage-back-block__video').prop('controls',true)
          }
 
      },
@@ -99,6 +106,9 @@ let fullpageDemo = new fullpage('#fullpage-demo', {                             
 
 
         $('#move-to-top').removeClass('footer-active')
+
+        $('.fullpage-back-block').removeClass('active')             //Видео на полный экран про героя
+        $('#fullpage-back-block__video').prop('controls',false)
      },
 });
 

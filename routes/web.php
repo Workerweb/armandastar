@@ -54,7 +54,7 @@ Route::get('/hero_rustem', function () {
     return view('pages.heroes.hero_rustem');
 });
 
-Route::get('/hero_genadiy', function () {
+Route::get('/hero_gennadiy', function () {
     return view('pages.heroes.hero_genadiy');
 });
 

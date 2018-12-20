@@ -2690,6 +2690,10 @@
   background-image: none !important;
 }
 
+.fullpage-back-block.active {
+  z-index: 95;
+}
+
 .fullpage-back-block__overlay {
   position: absolute;
   left: 0;

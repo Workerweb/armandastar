@@ -27,6 +27,10 @@
 
 	}
 
+	&.active{
+		z-index: 95;
+	}
+
 	&__overlay{
 		position: absolute;
 		left: 0;
@@ -65,7 +69,10 @@
 		
 	}
 
+
 }
+
+
 
 @include adaptive-480{
 	.fullpage-back-block{

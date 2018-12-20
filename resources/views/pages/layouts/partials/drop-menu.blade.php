@@ -28,7 +28,7 @@
 
 
         <a 
-        class="drop-menu__block active" href="/hero_genadiy">
+        class="drop-menu__block active" href="/hero_gennadiy">
             <p class="drop-menu__block-text">Геннадий <br>Мороз</p>
             <img class="drop-menu__block-image" src="/img/menu/hero_12.png" alt="">
         </a>        
