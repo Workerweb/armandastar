@@ -49,40 +49,42 @@
 
         
         <a 
-        class="drop-menu__block" href="/hero_samson">
+        class="drop-menu__block active" href="/hero_samson">
             <p class="drop-menu__block-text">Самсон  <br>Аракелян</p>
             <img class="drop-menu__block-image" src="/img/menu/hero_7.png" alt="">
         </a>
         
         <a 
-        class="drop-menu__block" href="/dev">
-            <p class="drop-menu__block-text">Камиля  <br>Сулейменова</p>
-            <img class="drop-menu__block-image" src="/img/menu/hero_5.png" alt="">
-        </a>
-        
-        <a 
-        class="drop-menu__block" href="/dev">
+        class="drop-menu__block active" href="/hero_juld">
             <p class="drop-menu__block-text">Жулдыз <br>Шабденова</p>
             <img class="drop-menu__block-image" src="/img/menu/hero_9.png" alt="">
         </a>
-        
+
         <a 
-        class="drop-menu__block" href="/dev">
+        class="drop-menu__block active" href="/hero_anarbekovi">
             <p class="drop-menu__block-text">Адлет и Даулет  <br>Анарбековы</p>
             <img class="drop-menu__block-image" src="/img/menu/hero_10.png" alt="">
         </a>
+
+
+      <a 
+        class="drop-menu__block active" href="/hero_timur">
+            <p class="drop-menu__block-text">Тимур <br>Коробейников</p>
+            <img class="drop-menu__block-image" src="/img/menu/hero_4.png" alt="">
+        </a>
+        
         
         <!-- 
             *********************************REPEATED PART*****************************************-->
 
 
         <!-- *********************************REPEATED PART*****************************************-->
-        
-      <a 
+        <a 
         class="drop-menu__block" href="/dev">
-            <p class="drop-menu__block-text">Тимур <br>Коробейников</p>
-            <img class="drop-menu__block-image" src="/img/menu/hero_4.png" alt="">
+            <p class="drop-menu__block-text">Камиля  <br>Сулейменова</p>
+            <img class="drop-menu__block-image" src="/img/menu/hero_5.png" alt="">
         </a>
+        
 
 
         <a 
