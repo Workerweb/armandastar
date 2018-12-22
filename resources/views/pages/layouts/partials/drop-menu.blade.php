@@ -95,20 +95,20 @@
 
 
         <a 
-        class="drop-menu__block" href="/dev">
+        class="drop-menu__block" href="/hero_saida">
             <p class="drop-menu__block-text">Саида и Дина <br>Ыбышевы</p>
             <img class="drop-menu__block-image" src="/img/menu/hero_11.png" alt="">
         </a>
         
         
         <a 
-        class="drop-menu__block" href="/dev">
+        class="drop-menu__block" href="/hero_shahmurat">
             <p class="drop-menu__block-text">Шах-Мурат <br>Ордабаев</p>
             <img class="drop-menu__block-image" src="/img/menu/hero_13.png" alt="">
         </a>
         
         <a 
-        class="drop-menu__block" href="/dev">
+        class="drop-menu__block" href="/hero_alexandr">
             <p class="drop-menu__block-text">Александр <br>Пупенко</p>
             <img class="drop-menu__block-image" src="/img/menu/hero_14.png" alt="">
         </a>

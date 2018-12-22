@@ -66,6 +66,18 @@ Route::get('/hero_nurlan', function () {
     return view('pages.heroes.hero_nurlan');
 });
 
+Route::get('/hero_saida', function () {
+    return view('pages.heroes.hero_saida');
+});
+
+Route::get('/hero_shahmurat', function () {
+    return view('pages.heroes.hero_shahmurat');
+});
+
+Route::get('/hero_alexandr', function () {
+    return view('pages.heroes.hero_alexandr');
+});
+
 Route::get('/dev', function () {
     return view('pages.dev.dev');
 });
